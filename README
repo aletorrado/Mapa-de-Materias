@@ -1,0 +1,7 @@
+Mapa de Materias (versión k*10^-50)
+
+Requiere PyGraphViz
+
+Ver en "run_ale" un ejemplo de su ejecución, o ejecutar mapa.py --help para más
+información.
+
