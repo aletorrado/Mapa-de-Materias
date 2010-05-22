@@ -1,0 +1,2 @@
+./mapa.py -m materias.info.csv -c ale.csv -s ale.png
+
