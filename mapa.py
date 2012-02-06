@@ -32,7 +32,7 @@ def generar_grafo(materias,cursadas,salida):
 	grafo = AGraph(directed=True) # Creo el grafo dirigido
 	
 	# proceso el programa de materias
-	for archivo in materias.split():
+	for archivo in materias.split(","):
 		file_materias = open(archivo)
 		csv_materias = csv.reader(file_materias)
 		
