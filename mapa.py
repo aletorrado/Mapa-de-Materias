@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# coding: utf-8
 # Este archivo usa el encoding: utf-8
 
 # Copyright 2009 Alejandro Torrado
@@ -48,7 +49,7 @@ def generar_grafo(materias,cursadas,salida):
 	
 	for linea in csv_labels:
 		if grafo.has_node(linea[0]):
-			grafo.get_node(linea[0]).attr["label"]=linea[0]+"\\n"+linea[1]
+			grafo.get_node(linea[0]).attr["label"] = linea[0].decode("utf8")+"\\n"+linea[1].decode("utf8")
 	file_labels.close()
 			
 	# proceso las materias cursadas
