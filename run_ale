@@ -1,3 +1,4 @@
 ./mapa.py -m materias.info.csv -c ale.csv -s ale.png
 ./mapa.py -m materias.info.csv,materias.info.gi.csv -c ale.csv -s ale_full.png
+./mapa.py -m materias.info.csv,materias.info.sp.csv -c ale.csv -s ale_ladri.png
 
